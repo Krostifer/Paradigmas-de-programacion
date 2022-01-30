@@ -1,0 +1,33 @@
+Se implementó de manera completa y sin problemas los siguientes aspectos de los requerimientos no funcionales:
+-Se realizó la autoevaluación de los requerimientos funcionales
+-Se utilizo el lenguaje Java con OpenJDK 11
+-Todas las interacciones con el usuario se realizan mediante la terminal y solo se utilizaron funcionalidades de la librería estándar de Java
+-Se utilizó el paradigma orientado a objetos para la totalidad del desarrollo de este laboratorio
+-Se respetaron los prerrequisitos de cada una de las funcionalidades
+-Se documento el código utilizando el estilo Javadoc
+-Se organizo el código intentando alcanzar la mayor cohesión y menor acoplamiento posible
+-Se agregó el diagrama de análisis dentro del informe, este fue realizado antes de escribir el código del programa.
+-Se agregó el diagrama de diseño dentro del informe, este fue realizado luego de terminar de escribir el código del programa.
+-Se subió un avance constante en la plataforma git respetando las fechas
+
+
+Aspectos funcionales obligatorios:
+
+Clases y estructuras: (Implementación completa sin errores)
+    Se logro implementar cada clase de una manera satisfactoria y que permitió trabajar de manera fácil con ellos.
+Menú interactivo por terminal: (Implementación completa sin errores)
+    Se implemento un menú que permitiera al usuario interactuar con él sin mayor problema y se incluyeron los datos precargados dentro del stack.
+Register/Login/Logout: (Implementación completa sin errores)
+    Se logro implementar correctamente las 3 partes de esta funcionalidad y dentro del register detecta cuando ya existe un usuario con el nombre ingresado.
+Ask: (Implementación completa sin errores)
+    Se creo correctamente, crea la pregunta con los datos y etiquetas entregadas, obtiene su correspondiente id, para luego registrarla en el stack.
+Answer: (Implementación completa sin errores)
+    Se implementó correctamente, crea la respuesta con los datos entregados, se le asigna su correspondiente id y se registra dentro de la pregunta indicada.
+Reward: (Implementación completa sin errores)
+    Se creó correctamente, se comprueba que el usuario posea suficiente reputación, se descuenta y se suma a la pregunta correspondiente.
+    Ya que no se puede retirar una recompensa ofrecida o la pregunta no puede ser eliminada, al ofrecer recompensa la reputación es inmediatamente descontada del usuario, no se retiene.
+Accept:	(Implementación completa sin errores)
+    Se implemento correctamente, se muestran solo las preguntas que se pueden aceptar, se cambian los estados de la pregunta y respuesta, además se actualiza la reputación de los usuarios involucrados.
+Vote:	(Implementación completa sin errores)
+    Implementada completamente, se aplica la modificación de los votos en las pregunta o respuesta y la modificación de la reputación de cada usuario involucrado.
+

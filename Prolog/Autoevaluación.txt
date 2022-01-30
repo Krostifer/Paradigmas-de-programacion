@@ -1,0 +1,32 @@
+Se implementó de manera completa y sin problemas los siguientes aspectos de los requerimientos no funcionales:
+-Se realizó la autoevaluación de los requerimientos
+-Se utilizo el lenguaje Prolog para la totalidad del proyecto
+-Se uso una versión de SWI-Prolog valida
+-Solamente se hizo uso de las funciones parte de la librería estándar de Prolog
+-No se hizo uso de variables
+-Cada predicado está debidamente comentado, junto con la debida documentación de la base de conocimientos
+-Historial de trabajo constante durante el desarrollo del proyecto
+-Se incluyeron 3 ejemplos de llamada para cada predicado obligatorio al final del código fuente
+-Se respetaron los prerrequisitos de cada aspecto funcional
+
+
+Aspectos funcionales obligatorios:
+
+TDA’s: (Implementación completa sin errores)
+    Se logro implementar cada TDA de una manera satisfactoria y que permitió trabajar de manera fácil con ellos.
+Hechos:
+    Se incluyeron los hechos requeridos dentro de la base de conocimientos
+stackRegister: (Implementación completa sin errores)
+    Se logro implementar correctamente con recursión natural como era pedido y detecta cuando hay un usuario ya registrado con el nombre entregado.
+stackLogin: (Implementación completa sin errores)
+    La función fue implementada correctamente, comprueba que los datos del usuario sean correctos y que se haya ingresado una función valida.
+Ask: (Implementación completa sin errores)
+    Se creo correctamente, registra la pregunta y se le asigna su correspondiente identificador.
+Asnwer: (Implementación completa sin errores)
+    Se implemento de manera correcta, se registra la respuesta y se le asigna su correspondiente identificador.
+Accept:	(Implementación completa sin errores)
+    Se implemento correctamente, pero por la forma en la que se implementó un usuario puede ofrecer recompensa por su pregunta, escribir una respuesta y aceptar su respuesta, de esta manera recuperaría su reputación y ganaría un extra por respuesta aceptada, se permitió que ocurriera ya que no se especificaba que no se pudiera.
+stackTostring: (Implementación completa sin errores)	
+    Se implemento de totalmente correcta y crea un string con una representación parecida a un foro.
+Vote:	(Implementación completa sin errores)
+    Implementada completamente, se aplica la modificación de los votos en las pregunta o respuesta y la modificación de la reputación de cada usuario involucrado.

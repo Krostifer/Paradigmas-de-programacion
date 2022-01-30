@@ -1,0 +1,23 @@
+(((login (((login (register (crearStackVacio) "Krosto" "123") "Krosto" "123" ask) (crearFecha 30 10 2020)) "Ayudenme a terminar el laboratorio" '("urgente" "help")) "Krosto" "123" reward)1) 300)
+
+(display ((((login (((login (((login (register (crearStackVacio) "Krosto" "123") "Krosto" "123" ask) (crearFecha 30 10 2020)) "Ayudenme a terminar el laboratorio" '("urgente" "help")) "Krosto" "123" reward)1) 300) "Krosto" "123" answer) (crearFecha 25 10 2020)) 1) "Toma una biblia y reza" '("ayuda" "Scheme")))
+
+
+(display ((((login (((login (((login (register (register (crearStackVacio) "Christofer" "456") "Krosto" "123") "Christofer" "456" ask) (crearFecha 30 10 2020)) "Ayudenme a terminar el laboratorio" '("urgente" "help")) "Christofer" "456" reward)1) 300) "Krosto" "123" answer) (crearFecha 25 10 2020)) 1) "Toma una biblia y reza" '("ayuda" "Scheme")))
+
+
+(display (((login ((((login (((login (((login (register (register (crearStackVacio) "Christofer" "456") "Krosto" "123") "Christofer" "456" ask) (crearFecha 30 10 2020)) "Ayudenme a terminar el laboratorio" '("urgente" "help")) "Christofer" "456" reward)1) 300) "Krosto" "123" answer) (crearFecha 25 10 2020)) 1) "Toma una biblia y reza" '("ayuda" "Scheme")) "Christofer" "456" accept) 1) 1))
+
+
+
+(display ((((login (((login ((((login (((login (((login (register (register (crearStackVacio) "Christofer" "456") "Krosto" "123") "Christofer" "456" ask) (crearFecha 30 10 2020)) "Ayudenme a terminar el laboratorio" "urgente" "help") "Christofer" "456" reward)1) 300) "Krosto" "123" answer) (crearFecha 25 10 2020)) 1) "Toma una biblia y reza" '("ayuda" "Scheme")) "Christofer" "456" accept) 1) 1) "Krosto" "123" vote) getQuestion) 1) true))
+
+
+
+(define Over '((("Christofer" "456" (1) 202) ("Krosto" "123" () 815))
+               (((30 10 2020) "Ayudenme a terminar el laboratorio" ("Scheme" "urgente") 1 0 "cerrada" "Christofer" 0))
+               (((25 10 2020) 1 "Toma una biblia y reza" ("ayuda" "Scheme") "Krosto" 1 0) ((25 10 2020) 2 "reza" ("ayuda" "Scheme") "Krosto" 2 0) ((25 10 2020) 1 "Toma una biblia" ("ayuda" "Scheme") "Krosto" 3 0))
+               ()
+               1
+               1)
+)

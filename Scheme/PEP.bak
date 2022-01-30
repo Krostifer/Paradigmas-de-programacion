@@ -1,0 +1,44 @@
+#lang racket
+
+#|
+TDA RacketFlix
+    Lista que de TDAs
+         Peliculas(lista de TDAs Pelicula)
+         Usuarios(lista de TDAs Usuario)
+    Ejemplo: '((Pelicula1) (Pelicula2)) ((Usuario1) (Usuario2)))
+
+TDA Usuario
+    Lista que contiene los siguiente
+         Rut(string)
+         username(string)
+         pass("string")
+         Preferencias(lista de strings)
+         Cartera (entero)
+    Ejemplo: '("182345438" "Pepe" "1234" ("romance" "drama") 666)
+
+TDA Pelicula
+    Lista que contiene los siguentes elementos
+         id(entero)
+         nombre (string)
+         duracion (entero)
+         año(entero)
+         tags(lista de strings)
+         costo(entero)
+         peliculasAdquiridas (lista de TDAs Pelicula)
+    Ejemplo: '(2341 "Forrest Gump" 142 1994 ("romance" "drama") 1700 (Pelicula1 Pelicula2))
+|#
+
+;***************** RACKETFLIX *********************
+
+;**** CONSTRUCTOR ****
+
+;Crea el TDA RacketFlix
+;No recibe argumentos
+
+;***************** USUARIO *********************
+
+;**** CONSTRUCTOR ****
+
+;Crea un usuario
+;Recibe como argumentos el nombre de usuario(string) y su contraseña (string)
+;Retorna un TDA usuario
